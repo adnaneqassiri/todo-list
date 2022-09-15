@@ -1,0 +1,69 @@
+/*  
+    // ============================
+    // ToDo List
+    // 15-09-2022 By Adnane Qassiri
+    // ============================ 
+*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    padding: 16px;
+    display: flex;
+    background: #b5b5b5;
+    flex-direction: row;
+    border-radius: 2px;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+#tasks-input{
+	padding: 2px 17px;
+    outline: none;
+    border: 1.5px solid #f0f0f0;
+    width: 40%;
+    height: 19px;
+}
+#submit-btn{
+	padding: 4px 11px;
+    color: white;
+    background: #ff4800;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    display: flex;
+    background: #b5b5b5;
+    border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    margin-top: 10px;
+    color: black;
+    font-size: 14px;
+    width: 70%;
+}
+span{
+	width: 42%;
+    color: black;
+}
+button{
+	padding: 4px 11px;
+    color: white;
+    background: #ff4800;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2px;
+	font-size: 11px;
+}
